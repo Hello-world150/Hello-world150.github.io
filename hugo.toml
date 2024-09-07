@@ -15,7 +15,7 @@ debug = false
 [params.profileMode]
 enabled = true
 title = "秦浩林的博客"
-subtitle = "一些自言自语🙃"
+subtitle = "习惯自言自语🙃"
 imageUrl = "https://avatars.githubusercontent.com/u/163529335?s=96&v=4"
 imageTitle = "My Github image"
 imageWidth = 120
