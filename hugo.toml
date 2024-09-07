@@ -1,0 +1,41 @@
+baseURL = "https://hello-world150.github.io/"
+languageCode = "zh-cn"
+title = "秦浩林的博客"
+theme = "PaperMod"
+
+[params]
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+comments = true
+since = 2024
+debug = false
+[params.profileMode]
+enabled = true
+title = "秦浩林的博客"
+subtitle = "一些自言自语🙃"
+imageUrl = "https://avatars.githubusercontent.com/u/163529335?s=96&v=4"
+imageTitle = "My Github image"
+imageWidth = 120
+imageHeight = 120
+
+[[params.profileMode.buttons]]
+  name = "Github"
+  url = "https://github.com/Hello-world150"
+
+[[params.profileMode.buttons]]
+  name = "About me"
+  url = "/about/"
+
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]

@@ -1,0 +1,19 @@
+<div id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+	  clientID: 'Ov23lij7ndp0R04GYWVz',
+	  clientSecret: '80069fe86532bf14a4e95dfe425c43f8de98fd46',
+	  repo: 'blog-comments',
+	  owner: 'Hello-world150',
+	  admin: ['Hello-world150'],
+	  id: location.pathname,
+	  distractionFreeMode: false,
+	  pagerDirection: 'first',
+	  perPage: 15
+  })
+
+  gitalk.render('gitalk-container')
+</script>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>秦浩林的博客</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 秦浩林的博客</description>
+    <generator>Hugo -- 0.134.1</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 06 Sep 2024 19:09:47 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>写一个操作系统</title>
+      <link>http://localhost:1313/posts/my_first_blog/</link>
+      <pubDate>Fri, 06 Sep 2024 19:09:47 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my_first_blog/</guid>
+      <description>&lt;h1 id=&#34;写一个微型操作系统&#34;&gt;写一个微型操作系统&lt;/h1&gt;
+&lt;p&gt;很早就想写一个操作系统了。&lt;del&gt;其实是满足一下自己的虚荣心🙃&lt;/del&gt;。奈何自己技不如人，于是拖了半年才开干。&lt;/p&gt;
+&lt;h1 id=&#34;特性&#34;&gt;特性&lt;/h1&gt;
+&lt;p&gt;目前打算实现的有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VGA串口输出&lt;/li&gt;
+&lt;li&gt;一个简单的shell&lt;/li&gt;
+&lt;li&gt;多任务&lt;/li&gt;
+&lt;li&gt;文件系统&lt;/li&gt;
+&lt;li&gt;……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;算了，头都大了，走一步看一步吧😅&lt;/p&gt;
+&lt;h1 id=&#34;语言&#34;&gt;语言&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;Rust&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;写操作系统传统上都是用C语言，但看在Rust性能基本没损失还拥有内存安全的特性，就入了Rust&lt;del&gt;邪教&lt;/del&gt;。其实我是为了写操作系统才去学的Rust。&lt;/p&gt;
+&lt;h1 id=&#34;参考&#34;&gt;参考&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://os.phil-opp.com/&#34;&gt;Writing an OS in Rust&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;时间&#34;&gt;时间&lt;/h1&gt;
+&lt;p&gt;过几天就开学了（初二），三天打鱼两天晒网，不知道什么时候能做完。哦对了，这是我第一篇博文，留个日期吧：2024/09/07。😙&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;这个人很懒，什么都没有留下~&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
