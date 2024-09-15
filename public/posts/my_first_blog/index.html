@@ -143,7 +143,8 @@ Writing an OS in Rust
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#%e5%86%99%e4%b8%80%e4%b8%aa%e5%be%ae%e5%9e%8b%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f" aria-label="写一个微型操作系统">写一个微型操作系统</a></li>
+                    <a href="#%e5%86%99%e4%b8%80%e4%b8%aa%e5%be%ae%e5%9e%8b%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f" aria-label="写一个微型操作系统">写一个微型操作系统</a><ul>
+                        
                 <li>
                     <a href="#%e7%89%b9%e6%80%a7" aria-label="特性">特性</a></li>
                 <li>
@@ -154,13 +155,15 @@ Writing an OS in Rust
                     <a href="#%e6%97%b6%e9%97%b4" aria-label="时间">时间</a>
                 </li>
             </ul>
+            </li>
+            </ul>
         </div>
     </details>
 </div>
 
   <div class="post-content"><h1 id="写一个微型操作系统">写一个微型操作系统<a hidden class="anchor" aria-hidden="true" href="#写一个微型操作系统">#</a></h1>
 <p>很早就想写一个操作系统了。<del>其实是满足一下自己的虚荣心🙃</del>。奈何自己技不如人，于是拖了半年才开干。</p>
-<h1 id="特性">特性<a hidden class="anchor" aria-hidden="true" href="#特性">#</a></h1>
+<h2 id="特性">特性<a hidden class="anchor" aria-hidden="true" href="#特性">#</a></h2>
 <p>目前打算实现的有：</p>
 <ul>
 <li>VGA串口输出</li>
@@ -170,12 +173,12 @@ Writing an OS in Rust
 <li>……</li>
 </ul>
 <p>算了，头都大了，走一步看一步吧😅</p>
-<h1 id="语言">语言<a hidden class="anchor" aria-hidden="true" href="#语言">#</a></h1>
+<h2 id="语言">语言<a hidden class="anchor" aria-hidden="true" href="#语言">#</a></h2>
 <p><code>Rust</code>。</p>
 <p>写操作系统传统上都是用C语言，但看在Rust性能基本没损失还拥有内存安全的特性，就入了Rust<del>邪教</del>。其实我是为了写操作系统才去学的Rust。</p>
-<h1 id="参考">参考<a hidden class="anchor" aria-hidden="true" href="#参考">#</a></h1>
+<h2 id="参考">参考<a hidden class="anchor" aria-hidden="true" href="#参考">#</a></h2>
 <p><a href="https://os.phil-opp.com/">Writing an OS in Rust</a></p>
-<h1 id="时间">时间<a hidden class="anchor" aria-hidden="true" href="#时间">#</a></h1>
+<h2 id="时间">时间<a hidden class="anchor" aria-hidden="true" href="#时间">#</a></h2>
 <p>过几天就开学了（初二），三天打鱼两天晒网，不知道什么时候能做完。哦对了，这是我第一篇博文，留个日期吧：2024/09/07。😙</p>
 
 
@@ -188,7 +191,6 @@ Writing an OS in Rust
   </footer><div id="gitalk-container"></div>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<link rel="stylesheet" href="/css/custom-gitalk-dark.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
   var gitalk = new Gitalk({

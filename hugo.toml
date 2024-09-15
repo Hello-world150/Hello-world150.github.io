@@ -15,7 +15,7 @@ debug = false
 [params.profileMode]
 enabled = true
 title = "秦浩林的博客"
-subtitle = "习惯自言自语🙃"
+subtitle = "Hello blog!"
 imageUrl = "https://avatars.githubusercontent.com/u/163529335?s=96&v=4"
 imageTitle = "My Github image"
 imageWidth = 120
@@ -24,6 +24,11 @@ imageHeight = 120
 [[params.profileMode.buttons]]
   name = "Github"
   url = "https://github.com/Hello-world150"
+
+[[params.profileMode.buttons]]
+  name = "Email"
+  url = "mailto:qhlcmy@163.com"
+
 
 [[params.profileMode.buttons]]
   name = "About me"
