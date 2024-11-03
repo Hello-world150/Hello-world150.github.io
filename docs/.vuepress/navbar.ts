@@ -8,8 +8,7 @@ export const navbar = defineNavbarConfig([
   {
     text: 'Notes',
     items: [
-      { text: 'Rust', link: '/notes/Rust' },
-      { text: 'Markdown', link: '/notes/Markdown' },
+      { text: 'Test', link: '/notes/Test' },
     ]
   },
 ])
