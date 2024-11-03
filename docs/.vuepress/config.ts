@@ -30,10 +30,6 @@ export default defineUserConfig({
       markdownEnhance: {
         demo: true,
         include: true,
-        chart: true,
-        echarts: true,
-        mermaid: true,
-        flowchart: true,
       },
 
       /**
@@ -57,13 +53,14 @@ export default defineUserConfig({
         provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
         comment: true,
         repo: 'Hello-world150/Hello-world150.github.io',
-        repoId: 'R_kgDONJcsHQ',
+        repoId: 'R_kgDONJr9Sw',
         category: 'Announcements',
-        categoryId: 'DIC_kwDONJcsHc4Cj6ts',
+        categoryId: 'DIC_kwDONJr9S84Cj7vY',
         mapping: 'title',
         reactionsEnabled: true,
         lightTheme: 'light',
         darkTheme: 'dark',
+        inputPosition: 'top',
       },
       
     },
