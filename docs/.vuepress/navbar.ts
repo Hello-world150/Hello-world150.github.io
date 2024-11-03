@@ -6,7 +6,10 @@ export const navbar = defineNavbarConfig([
   { text: 'Tag', link: '/blog/tags/' },
   { text: 'Archive', link: '/blog/archives/' },
   {
-    text: 'Note',
-    items: [{ text: '示例', link: '/notes/demo/README.md' }]
+    text: 'Notes',
+    items: [
+      { text: 'Rust', link: '/notes/Rust' },
+      { text: 'Markdown', link: '/notes/Markdown' },
+    ]
   },
 ])
