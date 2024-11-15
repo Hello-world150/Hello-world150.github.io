@@ -12,7 +12,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     // 添加您的部署域名
-    hostname: 'https://qhlcmy.me',
+    hostname: 'https://www.qhlcmy.me',
     plugins: {
       /**
        * Shiki 代码高亮

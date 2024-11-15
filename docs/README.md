@@ -4,20 +4,20 @@ externalLinkIcon: false
 config:
   -
     type: banner
-    banner: https://api.imlcd.cn/bg/gq.php
-    bannerMask: 0.6
+    banner: https://bing.img.run/rand_uhd.php
+    bannerMask: 0.35
     full: true
     hero:
       name: 水木的博客
-      tagline: Love is code and you.
+      tagline: Finally got to meet you.
       text: 如果再也见不到你，祝你早安，午安，晚安。
       actions:
         -
-          theme: brand
+          theme: alt
           text: Blog
           link: /blog/
         -
-          theme: alt
-          text: Github →
+          theme: brand
+          text: Github
           link: https://github.com/Hello-world150
 ---
