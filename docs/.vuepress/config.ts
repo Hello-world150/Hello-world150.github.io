@@ -20,17 +20,13 @@ export default defineUserConfig({
        */
       shiki: {
            // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-         languages: ['shell', 'typescript', 'javascript', 'rust', 'python', 'html', 'css',],
+         languages: ['shell', 'javascript', 'rust', 'python', 'html', 'css',],
       },
 
       /**
        * markdown enhance
        * @see https://theme-plume.vuejs.press/config/plugins/markdown-enhance/
        */
-      markdownEnhance: {
-        demo: true,
-        include: true,
-      },
 
       /**
        *  markdown power
