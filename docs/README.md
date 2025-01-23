@@ -4,7 +4,7 @@ externalLinkIcon: false
 config:
   -
     type: banner
-    banner: https://bing.img.run/rand_uhd.php
+    banner: https://api.xsot.cn/bing?jump=true
     bannerMask: 0.35
     full: true
     hero:
