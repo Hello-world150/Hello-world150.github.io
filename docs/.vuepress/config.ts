@@ -20,13 +20,8 @@ export default defineUserConfig({
        */
       shiki: {
            // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-         languages: ['shell', 'javascript', 'rust', 'python', 'html', 'css',],
+         languages: [ 'javascript', 'rust', 'python', 'html', 'css',],
       },
-
-      /**
-       * markdown enhance
-       * @see https://theme-plume.vuejs.press/config/plugins/markdown-enhance/
-       */
 
       /**
        *  markdown power
@@ -54,8 +49,8 @@ export default defineUserConfig({
         categoryId: 'DIC_kwDONJr9S84Cj7vY',
         mapping: 'title',
         reactionsEnabled: true,
-        lightTheme: 'light',
-        darkTheme: 'dark',
+        lightTheme: 'catppuccin_latte',
+        darkTheme: 'catppuccin_mocha',
         inputPosition: 'top',
       },
       
